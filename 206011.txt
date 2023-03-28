@@ -1,0 +1,77 @@
+Mia Janeva 206011
+Софтверско инженерство - лабораториска вежба 1
+
+
+
+4. >mkdir SI_2023_lab1_206011 //креирање фолдер
+   >cd SI_2023_lab1_206011  // промена на фолдер од моменталниот во фолдерот SI_2023_lab1_206011
+   >git init //иницијализација на Git во фолдерот
+
+5. >git remote add origin https://github.com/miajaneva/SI_2023_lab1_206011.git // додавање на локалниот репозиториум со репозиториумот во GitHub
+
+6. >notepad README.md //креирање notepad датотека со име README и додавање текст во неа име, презиме и индекс
+   >git add .
+   >git commit -m "Initial commit" //создавање прв commit со име Initial commit
+
+7. >notepad SILab1.java //креирање java фајл и додавање код во него
+   >git add .  
+   >git commit -m "Add java class" //креирање commit со име Add java class
+
+8. >git pull //превземање на се од репозиториумот и префрлање во локалниот репозиториум 
+   >git push -u origin master //префрлање на промените во master од примарниот репозиториум
+ 
+9. >git branch bug1 //креирање гранка bug1
+   >git branch bug2 //креирање гранка bug2
+   >git branch bug3 //креирање гранка bug3
+
+10.>git checkout bug1 //префрлање од master на гранка bug1 
+
+11.>notepad SILab1.java //поправка на грешка во for циклус каде броевите се движат од 0до n
+    for(i = 0; i < n; i++)
+   >git add SILab1.java //додавање на датотеката на гранка bug1
+   >git commit -m "Fix wrong loop for reading." // создавање commit со име Fix wrong loop for reading.
+
+12.>git checkout bug2 //префрлање од bug1 на гранка bug2
+
+13.>notepad SILab1.java //поправка на грешка во услов кој проверува кои броеви се непарни, %2==1
+   >git add SILab1.java //додавање на датотеката на гранка bug2
+   >git commit -m "Fix wrong condition in filterOddNumbers."//создавање commit со име Fix wrong condition in filterOddNumbers.
+
+14.>git checkout bug3 //префрлање од bug2 на гранка bug3
+
+15.>notepad SILab1.java //поправка на грешка во збир sum=0 and sum+=el
+   >git add SILab1.java //додавање на датотеката на гранка bug3
+   >git commit -m "Fix method sumEvenNumbers." //создавање commit со име Fix method sumEvenNumbers.
+
+16.>git pull //превземање на се од репозиториумот и префрлање во локалниот репозиториум 
+   >git push -u origin master //префрлање на промените во master од примарниот репозиториум
+
+17.>git checkout master //префрлање на master 
+
+18.>git merge bug1 //спојување на bug1 со master
+-Нема појава на конфликт
+-Стратегија Fast Forward
+
+19.>git pull //превземање на се од репозиториумот и префрлање во локалниот репозиториум 
+   >git push -u origin master //префрлање на промените во master од примарниот репозиториум
+
+20.>git merge bug2 //спојување на bug1 со master
+-Има појава на конфликт, со merge commit 
+-Стратегија Recursive
+
+21.>git pull ///превземање на се од репозиториумот и префрлање во локалниот репозиториум
+   >git push -u origin master //префрлање на промените во master од примарниот репозиториум
+
+
+//треба со rebase, јас направив спојување на ист начин како со bug1, bug2
+22.>git merge bug3
+
+23,24,25.>git pull
+   >git push -u origin master
+
+26.>git push -u origin master ////префрлање на промените во master од примарниот репозиториум
+
+27.>notepad logs.md 
+
+28.>git pull
+   >git push -u origin master

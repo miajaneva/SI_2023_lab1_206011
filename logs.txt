@@ -1,0 +1,38 @@
+27. Додадете датотеката logs.txt во која ќе ги ископирате досегашните git логови
+
+commit 203c4cdc9fd5e4fafd9c9036a54ff62c6fa6c334 (HEAD -> master, origin/master, bug3)
+Author: Mia Janeva <miajaneva83@gmail.com>
+Date:   Mon Mar 27 20:51:44 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 3ff7e6d0d850f6d21b79f8cf6ebf74731f649e0c
+Merge: 392f518 501f35f
+Author: Mia Janeva <miajaneva83@gmail.com>
+Date:   Mon Mar 27 20:13:03 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 501f35fa81b27ed499d1afbc3eeb8b488908f212 (origin/bug2, bug2)
+Author: Mia Janeva <miajaneva83@gmail.com>
+Date:   Mon Mar 27 19:34:01 2023 +0200
+
+    Fix wrong condition in filterOddNumbers.
+
+commit 392f5186d024381e78d3094025d253f01a26258d (origin/bug1, bug1)
+Author: Mia Janeva <miajaneva83@gmail.com>
+Date:   Mon Mar 27 19:24:54 2023 +0200
+
+    Fix wrong loop for reading.
+
+commit 2bb91cfc3548a589fae3b7795121c0504109e41a
+Author: Mia Janeva <miajaneva83@gmail.com>
+Date:   Mon Mar 27 16:08:25 2023 +0200
+
+    Add java class
+
+commit 5bf6bdf859119b00c0947a1cd1dfedca433629d0
+Author: Mia Janeva <miajaneva83@gmail.com>
+Date:   Mon Mar 27 15:43:22 2023 +0200
+
+    Initial commit
